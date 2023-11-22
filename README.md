@@ -1,70 +1,33 @@
-Introduction
-Welcome to Bennett-e-dorm, a comprehensive Hostel Administration System designed in C++. This project provides a user-friendly interface for students and administrators to manage hostel-related tasks efficiently. The system utilizes advanced technologies to greet users according to the time of the day and offers distinct functionalities for students and administrators.
+Bennett-e-dorm: Hostel Administration System
+Welcome to Bennett-e-dorm, a C++-based Hostel Administration System that ensures seamless management for students and administrators alike. The system employs a friendly interface, incorporating advanced features to enhance the user experience.
 
-Features
-Common Features
-Greetings: Upon running the application, users will be greeted with a welcome message tailored to the time of the day (morning, afternoon, or evening).
+Greetings and Menu Options
+Upon execution, Bennett-e-dorm extends a warm welcome, varying its greeting based on the time of the day. Users are presented with three main options: Student, Administrator, and Exit.
 
-Menu Options:
-
-Student
-Administrator
-Exit
 Student Zone
-Registration:
+Registration: Students can register by providing essential details, such as Enroll No. (College ID), Name, Mobile No., Password, and Confirm Password. Stringent checks ensure password accuracy and validate mobile numbers. Successful registrations are recorded in the registered.txt file.
 
-Enroll No. (College ID)
-Name
-Mobile No.
-Password
-Confirm Password
-The system ensures password confirmation and valid mobile number entry. User details are saved in registered.txt.
+Login: Enrolled students can access the Student Zone by entering their Enroll No. and Password.
 
-Login:
+Room Allotment: Students have the option to secure a room based on their gender and preferred state. The system intelligently allocates rooms, saving the information in roomallocation.txt. If a room is full, the data is transferred to finalroomallocation.txt.
 
-Enroll No.
-Password
-Successful login leads to the Student Zone.
+Raise a Complaint: Students can log complaints, providing their Enroll No., Name, and a brief description of the issue. Complaints are stored in the complaint.txt file, with a confirmation message provided.
 
-Room Allotment:
-
-Name
-Enroll No.
-Gender
-Preferred State
-Students are allotted rooms based on gender and preferred state. Room details are saved in roomallocation.txt. If a room is full, the information is moved to finalroomallocation.txt.
-
-Raise a Complaint:
-
-Enroll No.
-Name
-Brief Complaint
-Complaints are saved in complaint.txt, and a confirmation message is provided.
-
-Return to Main Menu
-
-Exit
+Return to Main Menu and Exit options are available.
 
 Administrator Zone
-Login:
+Administrators access the system by entering their credentials.
 
-Admin ID
-Password
-Successful login leads to the Administrator Zone.
+Show Allotted Students: This feature displays information from finalroomallocation.txt, showcasing students and their respective allotted rooms.
 
-Show Allotted Students:
-Displays information from finalroomallocation.txt about students and their allotted rooms.
+Show All Complaints: Administrators can view complaints lodged by students, sourced from the complaint.txt file.
 
-Show All Complaints:
-Displays complaints from complaint.txt.
-
-Return to Main Menu
-
-Exit
+Return to Main Menu and Exit options are available for administrators.
 
 Implementation Details
-The project uses data structures such as Binary Search Tree and Vector for efficient storage and retrieval.
-There are eight .cpp files, including main.cpp, where all components merge seamlessly.
-Information is stored in eight .txt files, ensuring organized data management.
+The project leverages data structures, including Binary Search Trees and Vectors, to enhance efficiency in data storage and retrieval. With eight .cpp files, including the central main.cpp, the components seamlessly integrate. Information is systematically managed across eight .txt files.
+
 Conclusion
-Thank you for choosing Bennett-e-dorm! Whether you are a student looking for hassle-free hostel management or an administrator seeking streamlined oversight, this system is designed to meet your needs effectively. Your feedback is valuable, and we hope you have a pleasant experience using Bennett-e-dorm.
+Bennett-e-dorm offers a user-centric approach to hostel administration. Whether you are a student seeking hassle-free accommodation or an administrator in need of streamlined oversight, this system is tailored to meet your requirements. Your valuable feedback is appreciated, and we hope your experience with Bennett-e-dorm is both pleasant and efficient.
+
+Visit our GitHub repository for further details and updates. Thank you for choosing Bennett-e-dorm!
