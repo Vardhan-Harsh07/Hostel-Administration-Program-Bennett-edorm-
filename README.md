@@ -1,12 +1,70 @@
-# Hostel-Administration-Program-Bennett-edorm-
-A C++ program utilizes a Binary Search Tree for efficient hostel administration. Students can autonomously allot rooms, specifying preferences for roommates and accessing additional features. Administrators have comprehensive access to all information within the system.
-This project introduces an innovative Hostel Administration Program, named Bennett-e-Dorm, designed to optimize, and streamline the student accommodation process. With a dual-login system catering to both students and administrators, the platform offers an efficient solution for room allocation and complaint management within educational institutions.
+Introduction
+Welcome to Bennett-e-dorm, a comprehensive Hostel Administration System designed in C++. This project provides a user-friendly interface for students and administrators to manage hostel-related tasks efficiently. The system utilizes advanced technologies to greet users according to the time of the day and offers distinct functionalities for students and administrators.
 
-The student portal enables students to autonomously select their rooms based on their home state, fostering a sense of community by pairing students from the same region. Additionally, students can raise and track accommodation-related complaints through the system, ensuring prompt resolution and a conducive living environment.
+Features
+Common Features
+Greetings: Upon running the application, users will be greeted with a welcome message tailored to the time of the day (morning, afternoon, or evening).
 
-On the administrator side, Bennett-e-Dorm provides tools to oversee room allocation and manage student complaints effectively. Administrators can view room assignments, ensuring cohesive living arrangements for students from the same state. The system enhances transparency and communication, facilitating a seamless administrative process.
+Menu Options:
 
-The registration process for students involves providing essential details, and the system prevents duplicate enrolments, ensuring accurate and reliable data. Moreover, the program incorporates a gender-based room allocation feature, aligning accommodations with individual preferences and creating a comfortable living space for all.
+Student
+Administrator
+Exit
+Student Zone
+Registration:
 
-Bennett-e-Dorm aims to revolutionize hostel administration by combining state-of-the-art technology with user-friendly interfaces, ultimately improving the overall student living experience. This abstract provides a glimpse into the features and functionalities that make Bennett -e-Dorm a valuable tool for efficient hostel management.
+Enroll No. (College ID)
+Name
+Mobile No.
+Password
+Confirm Password
+The system ensures password confirmation and valid mobile number entry. User details are saved in registered.txt.
 
+Login:
+
+Enroll No.
+Password
+Successful login leads to the Student Zone.
+
+Room Allotment:
+
+Name
+Enroll No.
+Gender
+Preferred State
+Students are allotted rooms based on gender and preferred state. Room details are saved in roomallocation.txt. If a room is full, the information is moved to finalroomallocation.txt.
+
+Raise a Complaint:
+
+Enroll No.
+Name
+Brief Complaint
+Complaints are saved in complaint.txt, and a confirmation message is provided.
+
+Return to Main Menu
+
+Exit
+
+Administrator Zone
+Login:
+
+Admin ID
+Password
+Successful login leads to the Administrator Zone.
+
+Show Allotted Students:
+Displays information from finalroomallocation.txt about students and their allotted rooms.
+
+Show All Complaints:
+Displays complaints from complaint.txt.
+
+Return to Main Menu
+
+Exit
+
+Implementation Details
+The project uses data structures such as Binary Search Tree and Vector for efficient storage and retrieval.
+There are eight .cpp files, including main.cpp, where all components merge seamlessly.
+Information is stored in eight .txt files, ensuring organized data management.
+Conclusion
+Thank you for choosing Bennett-e-dorm! Whether you are a student looking for hassle-free hostel management or an administrator seeking streamlined oversight, this system is designed to meet your needs effectively. Your feedback is valuable, and we hope you have a pleasant experience using Bennett-e-dorm.
