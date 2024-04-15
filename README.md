@@ -1,4 +1,4 @@
-Bennett-e-dorm: Hostel Administration System
+Bennett-e-dorm: Hostel Administration Program
 Welcome to Bennett-e-dorm, a C++-based Hostel Administration System that ensures seamless management for students and administrators alike. The system employs a friendly interface, incorporating advanced features to enhance the user experience.
 
 Greetings and Menu Options
